@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  constructor(private router: Router) {}
 
+  btnClick = () => {
+    this.router.navigateByUrl('/sobre-mi');
+  };
+  btnClick2 = () => {
+    this.router.navigateByUrl('/habilidades');
+  };
+  btnClick3 = () => {
+    this.router.navigateByUrl('/proyectos');
+  };
 }

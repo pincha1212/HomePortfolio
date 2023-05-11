@@ -1,0 +1,39 @@
+.background {
+    background-size: contain;
+    background-position: center;
+    height: 97.5vh;
+    background-color: black;
+    z-index: -1;
+    width: 100%;
+    overflow:hidden
+}
+
+button {
+    user-select: none;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+button:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:focus {
+    text-decoration: none;
+    outline: none
+}
+
+#close:hover{
+    background-color: red;
+}

@@ -1,0 +1,69 @@
+.background {
+    background-size: contain;
+    background-position: center;
+    height: 97.5vh;
+    background-color: black;
+    z-index: -1;
+    width: 100%;
+    overflow:hidden
+}
+
+button {
+    user-select: none;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+button:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:focus {
+    text-decoration: none;
+    outline: none
+}
+
+.boton1{
+    position: absolute;
+    left: 46%;
+    top: 21%;
+}
+
+.boton1:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0)
+}
+
+.boton2{
+    position: absolute;
+    left: 25%;
+    top: 32%;
+}
+
+.boton2:hover {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
+    transform: scale(1.1);
+}
+
+.boton3{
+    position: absolute;
+    left: 65%;
+    top: 25%;
+}
+
+.boton3:hover {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
+    transform: scale(1.1);
+    
+}
