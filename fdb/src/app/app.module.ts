@@ -7,6 +7,11 @@ import { HomeComponent } from './components/home/home.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { EnlacesSocialesComponent } from './components/sobre-mi/enlaces-sociales/enlaces-sociales.component';
+import { TituloComponent } from './components/sobre-mi/titulo/titulo.component';
+import { DescripcionComponent } from './components/sobre-mi/descripcion/descripcion.component';
+import { EnlaceCvComponent } from './components/sobre-mi/enlace-cv/enlace-cv.component';
+import { FooterComponent } from './components/sobre-mi/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     HomeComponent,
     HabilidadesComponent,
     SobreMiComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    EnlacesSocialesComponent,
+    TituloComponent,
+    DescripcionComponent,
+    EnlaceCvComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

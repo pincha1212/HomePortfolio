@@ -1,11 +1,17 @@
 .background {
     background-size: contain;
     background-position: center;
-    height: 97.5vh;
-    background-color: black;
     z-index: -1;
-    width: 100%;
-    overflow:hidden
+    overflow:hidden;
+    border: solid red 4px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 20px;
+    position: absolute;
+    width: 95vw;
+    height: 95vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 button {
@@ -32,6 +38,12 @@ button:hover {
 button:focus {
     text-decoration: none;
     outline: none
+}
+
+#close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 #close:hover{

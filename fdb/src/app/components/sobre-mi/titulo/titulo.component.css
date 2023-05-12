@@ -1,0 +1,10 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1%;
+    user-select: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF
+}
