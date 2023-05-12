@@ -49,3 +49,11 @@ button:focus {
 #close:hover{
     background-color: red;
 }
+
+@media (max-width: 768px){
+    .background{
+        overflow-y: scroll;
+        width: 85vw;
+        height: 85vh;
+    }
+  }
