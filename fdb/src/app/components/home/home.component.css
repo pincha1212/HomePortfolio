@@ -72,9 +72,6 @@ button:focus {
 
 .name {
     user-select: none;
-    position: absolute;
-    top: 50%;
-    left: 37.5%;
     color: #FFF;
     font-weight: 700
 }

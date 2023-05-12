@@ -50,3 +50,8 @@ button:focus {
     background-color: red;
 }
 
+@media (max-width: 768px){
+    .background{
+        overflow-y: scroll;
+    }
+  }

@@ -16,6 +16,7 @@ import { Titulo2Component } from './components/habilidades/titulo2/titulo2.compo
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/habilidades/skills/skills.component';
 import { Titulo3Component } from './components/proyectos/titulo3/titulo3.component';
+import { NameComponent } from './components/home/name/name.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { Titulo3Component } from './components/proyectos/titulo3/titulo3.compone
     Titulo2Component,
     SkillsComponent,
     Titulo3Component,
+    NameComponent,
   ],
   imports: [
     BrowserModule,

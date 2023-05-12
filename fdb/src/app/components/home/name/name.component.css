@@ -1,0 +1,23 @@
+.name {
+    user-select: none;
+    color: #FFF;
+    font-weight: 700
+}
+.name:hover{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
+    cursor: crosshair;
+    transform:scale(1.1) ;
+}
+
+.name br {
+    display: none;
+  }
+
+@media (max-width: 576px) {
+    .name {
+      white-space: pre-line;
+    }
+    .name br {
+        display: block;
+      }
+  }
