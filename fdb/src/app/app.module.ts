@@ -12,6 +12,10 @@ import { TituloComponent } from './components/sobre-mi/titulo/titulo.component';
 import { DescripcionComponent } from './components/sobre-mi/descripcion/descripcion.component';
 import { EnlaceCvComponent } from './components/sobre-mi/enlace-cv/enlace-cv.component';
 import { FooterComponent } from './components/sobre-mi/footer/footer.component';
+import { Titulo2Component } from './components/habilidades/titulo2/titulo2.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillsComponent } from './components/habilidades/skills/skills.component';
+import { Titulo3Component } from './components/proyectos/titulo3/titulo3.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +29,22 @@ import { FooterComponent } from './components/sobre-mi/footer/footer.component';
     DescripcionComponent,
     EnlaceCvComponent,
     FooterComponent,
+    Titulo2Component,
+    SkillsComponent,
+    Titulo3Component,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({
+      // set defaults here
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: "#78C000",
+      innerStrokeColor: "#C7E596",
+      animationDuration: 300,
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,4 @@
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+.titulo {
     padding-top: 1%;
     user-select: none;
     font-size: 36px;
