@@ -8,8 +8,4 @@
     font-weight: 700;
     margin-bottom: 10px;
     color: #FFF
-}@media (max-width: 768px){
-    .titulo{
-        padding-top: 15%;
-    }
-  }
+}
