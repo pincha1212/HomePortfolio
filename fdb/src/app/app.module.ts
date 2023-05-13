@@ -17,6 +17,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/habilidades/skills/skills.component';
 import { Titulo3Component } from './components/proyectos/titulo3/titulo3.component';
 import { NameComponent } from './components/home/name/name.component';
+import { MenuMovilesComponent } from './components/menu-moviles/menu-moviles.component';
 
 @NgModule({
   declarations: [
@@ -34,12 +35,12 @@ import { NameComponent } from './components/home/name/name.component';
     SkillsComponent,
     Titulo3Component,
     NameComponent,
+    MenuMovilesComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
-      // set defaults here
       radius: 100,
       outerStrokeWidth: 16,
       innerStrokeWidth: 8,

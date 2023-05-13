@@ -18,4 +18,8 @@ export class HomeComponent {
   btnClick3 = () => {
     this.router.navigateByUrl('/proyectos');
   };
+
+  btnClick4 = () => {
+    this.router.navigateByUrl('/menu-moviles');
+  }
 }
