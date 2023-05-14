@@ -75,7 +75,15 @@ button:focus {
     display: none;
 }
 @media (max-width: 768px) {
+    .boton1,
+    .boton2,
+    .boton3{
+        display: none;
+    }
     .boton4{
         display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
   }
