@@ -2,7 +2,7 @@
     background-size: contain;
     background-position: center;
     z-index: -1;
-    overflow:hidden;
+    overflow-x:hidden;
     border: solid red 4px;
     background-color: rgb(22, 22, 22);
     border-radius: 20px;
@@ -48,6 +48,30 @@ button:focus {
 #close:hover{
     background-color: red;
 }
+
+/* Estilo para el scroll vertical */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho del scroll */
+  }
+  
+  /* Estilo para el track (fondo) del scroll */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Color de fondo transparente */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para el thumb (barra) del scroll */
+  ::-webkit-scrollbar-thumb {
+    background: #4b444480; /* Color de la barra */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para el hover (efecto al pasar el mouse) del scroll */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cc3a3a; /* Color de la barra al pasar el mouse */
+  }
+  
+
 @media (max-width: 768px){
     .background{
         overflow-y: scroll;
