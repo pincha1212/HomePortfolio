@@ -12,4 +12,7 @@ export class ProyectosComponent {
   goHome = () => {
     this.router.navigateByUrl('');
   };
+  goPorfolio = () => {
+    this.router.navigateByUrl('/portafolio-web');
+  };
 }

@@ -12,7 +12,21 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    overflow-y: scroll;
+}
+
+.titulo {
+    padding-top: 1%;
+    user-select: none;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FFF
+}
+.lead{
+    font-size: 18px;
+    font-weight: 700;
+    color: black
 }
 
 button {
@@ -51,60 +65,38 @@ button:focus {
     background-color: red;
 }
 
-.card {
+img{
     width: 300px;
-    height: 400px;
-    border: 2px solid red;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    overflow: hidden;
-    cursor: pointer;
-  }
-  
-  .card-img {
-    width: 100%;
-  }
-  
-  .card-container {
-    padding: 5%;
-  }
-  
-  .card-title {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .card-subtitle {
-    font-size: 18px;
-  }
+    height: 200px;
+}
 
-  /* Estilo para el scroll vertical */
+/* Estilo para el scroll vertical */
 ::-webkit-scrollbar {
-  width: 10px; /* Ancho del scroll */
-}
+    width: 10px; /* Ancho del scroll */
+  }
+  
+  /* Estilo para el track (fondo) del scroll */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Color de fondo transparente */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para el thumb (barra) del scroll */
+  ::-webkit-scrollbar-thumb {
+    background: #4b444480; /* Color de la barra */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para el hover (efecto al pasar el mouse) del scroll */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cc3a3a; /* Color de la barra al pasar el mouse */
+  }
 
-/* Estilo para el track (fondo) del scroll */
-::-webkit-scrollbar-track {
-  background: transparent; /* Color de fondo transparente */
-  border-radius: 10px; /* Bordes redondeados */
-}
-
-/* Estilo para el thumb (barra) del scroll */
-::-webkit-scrollbar-thumb {
-  background: #4b444480; /* Color de la barra */
-  border-radius: 10px; /* Bordes redondeados */
-}
-
-/* Estilo para el hover (efecto al pasar el mouse) del scroll */
-::-webkit-scrollbar-thumb:hover {
-  background: #cc3a3a; /* Color de la barra al pasar el mouse */
-}
-
-
-@media (max-width: 768px){
+  @media (max-width: 768px){
     .background{
         overflow-y: scroll;
         width: 85vw;
         height: 85vh;
     }
   }
+  

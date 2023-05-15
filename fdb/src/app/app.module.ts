@@ -18,6 +18,7 @@ import { SkillsComponent } from './components/habilidades/skills/skills.componen
 import { Titulo3Component } from './components/proyectos/titulo3/titulo3.component';
 import { NameComponent } from './components/home/name/name.component';
 import { MenuMovilesComponent } from './components/menu-moviles/menu-moviles.component';
+import { PortafolioWebComponent } from './components/proyectos/portafolio-web/portafolio-web.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { MenuMovilesComponent } from './components/menu-moviles/menu-moviles.com
     Titulo3Component,
     NameComponent,
     MenuMovilesComponent,
+    PortafolioWebComponent,
   ],
   imports: [
     BrowserModule,
