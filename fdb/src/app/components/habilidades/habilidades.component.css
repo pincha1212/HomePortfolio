@@ -75,8 +75,8 @@ button:focus {
 @media (max-width: 768px){
     .background{
         overflow-y: scroll;
-        width: 85vw;
-        height: 85vh;
+        width: 80vw;
+        height: 80vh;
     }
   }
 
