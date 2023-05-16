@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./audio.component.css']
 })
 export class AudioComponent {
-
+  
 }
