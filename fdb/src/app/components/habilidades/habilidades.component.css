@@ -3,7 +3,7 @@
     background-position: center;
     z-index: -1;
     overflow-x:hidden;
-    border: solid red 4px;
+    border: solid rgb(5, 3, 17) 4px;
     background-color: rgb(22, 22, 22);
     border-radius: 20px;
     position: absolute;
