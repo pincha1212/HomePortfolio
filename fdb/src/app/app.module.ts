@@ -23,6 +23,7 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import { AudioComponent } from './components/home/audio/audio.component';
+import { RestauranteWebComponent } from './components/proyectos/restaurante-web/restaurante-web.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { AudioComponent } from './components/home/audio/audio.component';
     MenuMovilesComponent,
     PortafolioWebComponent,
     AudioComponent,
+    RestauranteWebComponent,
   ],
   imports: [
     BrowserModule,

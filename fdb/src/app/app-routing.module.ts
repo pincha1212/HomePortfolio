@@ -6,6 +6,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { MenuMovilesComponent } from './components/menu-moviles/menu-moviles.component';
 import { PortafolioWebComponent } from './components/proyectos/portafolio-web/portafolio-web.component';
+import { RestauranteWebComponent } from './components/proyectos/restaurante-web/restaurante-web.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'sobre-mi', component: SobreMiComponent },
   { path: 'proyectos', component: ProyectosComponent },
   { path: 'menu-moviles', component: MenuMovilesComponent},
-  { path: 'portafolio-web', component: PortafolioWebComponent}
+  { path: 'portafolio-web', component: PortafolioWebComponent},
+  { path: 'restaurante-web', component: RestauranteWebComponent}
 ];
 
 @NgModule({

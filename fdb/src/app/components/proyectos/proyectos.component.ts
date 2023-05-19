@@ -15,4 +15,7 @@ export class ProyectosComponent {
   goPorfolio = () => {
     this.router.navigateByUrl('/portafolio-web');
   };
+  goRestaurante = () => {
+    this.router.navigateByUrl('/restaurante-web');
+  };
 }

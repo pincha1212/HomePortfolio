@@ -3,14 +3,24 @@
 
     <app-titulo3></app-titulo3>
 
-    <div (click)="goPorfolio();" class="card-container" fxLayout="row wrap" fxLayoutGap="0.5em" fxLayoutAlign="center center" fxLayout.lt-sm="column">
-        <div class="card" flex="25">
-          <img src="https://firebasestorage.googleapis.com/v0/b/fdb-storage.appspot.com/o/images%2FPortafolio%20FDB.png?alt=media&token=f70e1604-8e95-4f44-9c5a-c0fa89da5a62" alt="Portafolio-FDB">
-          <div class="card-content">
-            <h2  class="card-title">Mi portafolio</h2>
-            <h3 class="card-subtitle">Puedes ver aquí el desarrollo de mi pagina web...</h3>
-          </div>
+    <div  class="card-container">
+      <!-- Tarjeta del portafolio -->
+      <div (click)="goPorfolio();" class="card">
+        <img src="https://firebasestorage.googleapis.com/v0/b/fdb-storage.appspot.com/o/images%2FPortafolio%20FDB.png?alt=media&token=f70e1604-8e95-4f44-9c5a-c0fa89da5a62" alt="Portafolio-FDB">
+        <div class="card-content">
+          <h2 class="card-title">Mi portafolio</h2>
+          <h3 class="card-subtitle">Puedes ver aquí el desarrollo de mi página web...</h3>
         </div>
       </div>
+     
+      <!-- Tarjeta del restaurante -->
+      <div (click)="goRestaurante();" class="card">
+        <img src="https://firebasestorage.googleapis.com/v0/b/fdb-storage.appspot.com/o/images%2FCocinero.png?alt=media&token=53e136e7-ec7c-4f57-82ca-de6268c67a53" alt="restaurante-web">
+        <div class="card-content">
+          <h2 class="card-title">Mi restaurante</h2>
+          <h3 class="card-subtitle">Puedes ver aquí el desarrollo de mi página web...</h3>
+        </div>
+      </div>
+     </div>
     
 </div>
