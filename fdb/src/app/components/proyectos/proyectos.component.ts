@@ -18,4 +18,8 @@ export class ProyectosComponent {
   goRestaurante = () => {
     this.router.navigateByUrl('/restaurante-web');
   };
+
+  goArticles = () => {
+    this.router.navigateByUrl('/articles-web');
+  }
 }
