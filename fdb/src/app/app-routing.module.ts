@@ -11,13 +11,15 @@ import { ArticlesWebComponent } from './components/proyectos/articles-web/articl
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent},
   { path: 'habilidades', component: HabilidadesComponent },
   { path: 'sobre-mi', component: SobreMiComponent },
-  { path: 'proyectos', component: ProyectosComponent },
-  { path: 'menu-moviles', component: MenuMovilesComponent},
+  { path: 'proyectos', component: ProyectosComponent},
   { path: 'portafolio-web', component: PortafolioWebComponent},
   { path: 'restaurante-web', component: RestauranteWebComponent},
-  { path: 'articles-web', component: ArticlesWebComponent}
+  { path: 'articles-web', component: ArticlesWebComponent},
+  { path: 'menu-moviles', component: MenuMovilesComponent}
+
 ];
 
 @NgModule({
