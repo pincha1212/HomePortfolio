@@ -25,6 +25,9 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
 
 import { RestauranteWebComponent } from './components/proyectos/restaurante-web/restaurante-web.component';
 import { ArticlesWebComponent } from './components/proyectos/articles-web/articles-web.component';
+import { HistoriaAcademicaComponent } from './components/historia-academica/historia-academica.component';
+import { Titulo4Component } from './components/historia-academica/titulo4/titulo4.component';
+import { EstudiosComponent } from './components/historia-academica/estudios/estudios.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +49,9 @@ import { ArticlesWebComponent } from './components/proyectos/articles-web/articl
     PortafolioWebComponent,
     RestauranteWebComponent,
     ArticlesWebComponent,
+    HistoriaAcademicaComponent,
+    Titulo4Component,
+    EstudiosComponent,
   ],
   imports: [
     BrowserModule,

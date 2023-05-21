@@ -8,6 +8,7 @@ import { MenuMovilesComponent } from './components/menu-moviles/menu-moviles.com
 import { PortafolioWebComponent } from './components/proyectos/portafolio-web/portafolio-web.component';
 import { RestauranteWebComponent } from './components/proyectos/restaurante-web/restaurante-web.component';
 import { ArticlesWebComponent } from './components/proyectos/articles-web/articles-web.component';
+import { HistoriaAcademicaComponent } from './components/historia-academica/historia-academica.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'portafolio-web', component: PortafolioWebComponent},
   { path: 'restaurante-web', component: RestauranteWebComponent},
   { path: 'articles-web', component: ArticlesWebComponent},
-  { path: 'menu-moviles', component: MenuMovilesComponent}
+  { path: 'menu-moviles', component: MenuMovilesComponent},
+  { path: 'historia-academica', component: HistoriaAcademicaComponent}
 
 ];
 

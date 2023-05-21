@@ -22,5 +22,9 @@ export class HomeComponent {
   btnClick4 = () => {
     this.router.navigateByUrl('/menu-moviles');
   }
+
+  btnClick5 = () => {
+    this.router.navigateByUrl('/historia-academica');
+  }
   
 }
