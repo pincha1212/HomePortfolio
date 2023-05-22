@@ -19,9 +19,6 @@ import { Titulo3Component } from './components/proyectos/titulo3/titulo3.compone
 import { NameComponent } from './components/home/name/name.component';
 import { MenuMovilesComponent } from './components/menu-moviles/menu-moviles.component';
 import { PortafolioWebComponent } from './components/proyectos/portafolio-web/portafolio-web.component';
-import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
-import { environment } from '../environments/environment';
-import { provideStorage,getStorage } from '@angular/fire/storage';
 
 import { RestauranteWebComponent } from './components/proyectos/restaurante-web/restaurante-web.component';
 import { ArticlesWebComponent } from './components/proyectos/articles-web/articles-web.component';
@@ -64,8 +61,6 @@ import { EstudiosComponent } from './components/historia-academica/estudios/estu
       innerStrokeColor: "#C7E596",
       animationDuration: 300,
     }),
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideStorage(() => getStorage())
   ],
   providers: [],
   bootstrap: [AppComponent]

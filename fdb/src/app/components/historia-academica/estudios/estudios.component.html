@@ -1,25 +1,12 @@
-<div class="card">
-    <div class="card-content">
-        <div class="card-title">EDUCACIÓN PRIMARIA Y SECUNDARIA: BACHILLER EN EDUCACIÓN FÍSICA</div>
-        <div class="card-subtitle"> Colegio Nuestra Señora de la Consolata (2006-2018)</div>
-    </div>
-</div>
-<div class="card">
-    <div class="card-content">
-        <div class="card-title">EDUCACIÓN PRIMARIA Y SECUNDARIA: BACHILLER EN EDUCACIÓN FÍSICA</div>
-        <div class="card-subtitle"> Colegio Nuestra Señora de la Consolata (2006-2018)</div>
-    </div>
-</div>
 
-<div class="card">
-    <div class="card-content">
-        <div class="card-title">INSTITUTO GASTRONÓMICO IGA:</div>
-        <div class="card-subtitle">‘CURSO’ « Chef Express » (2021)</div>
+<!-- Se define un array de objetos con los datos de cada tarjeta -->
+<ng-container *ngIf="cards">
+    <!-- Se usa la directiva ngFor para iterar sobre el array y crear una tarjeta por cada elemento -->
+    <div class="container card mb-3" *ngFor="let card of cards">
+        <div class="row card-body"> 
+            <!-- Se usa la interpolación para mostrar los datos de cada tarjeta -->
+            <h5 class="col-md-6 col-12 card-title">{{card.title}}</h5>
+            <p class="col-md-6 col-12 card-text">{{card.subtitle}}</p>
+        </div>
     </div>
-</div>
-<div class="card">
-    <div class="card-content">
-        <div class="card-title">ARGENTINA PROGRAMA :</div>
-        <div class="card-subtitle">Developer web FRONT-END</div>
-    </div>
-</div>
+</ng-container>
