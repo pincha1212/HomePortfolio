@@ -1,186 +1,23 @@
 <div class="background">
     <button (click)="goPRoyectos();" id="close">X</button>
     <h2 class="text-center titulo">MI PORTAFOLIO PERSONAL</h2>
-    <div class="container">
-        <div class="row">
+    <ng-container *ngIf="parrafos" class="row container">
+        <div class="card-body">
             <div class="col-md-8 mx-auto">
                 <div class="card mt-3">
                     <div class="card-body d-flex align-items-center">
-                        <p class="lead card-text">En este breve resumen, voy a contarles cómo fue el proceso de crear mi
-                            portafolio web, que es una muestra de mis habilidades y proyectos como programador. No fue
-                            fácil, tuve que enfrentar varios desafíos y tomar decisiones creativas para lograr un
-                            resultado
-                            que me satisficiera. Estos son algunos de los aspectos más importantes que tuve en cuenta:
-                        </p>
-                        <div class="card-img ml-3"><img src="https://firebasestorage.googleapis.com/v0/b/fdb-storage.appspot.com/o/images%2FPortafolio%20FDB.png?alt=media&token=f70e1604-8e95-4f44-9c5a-c0fa89da5a62" alt="Portafolio-FDB" border="0"></div>
-                        
-                          
+                        <p class="lead card-text">En este breve resumen, voy a contarles cómo fue el proceso de crear mi portafolio web, que es una muestra de mis habilidades y proyectos como programador. No fue fácil, tuve que enfrentar varios desafíos y tomar decisiones creativas para lograr un resultado que me satisficiera. Estos son algunos de los aspectos más importantes que tuve en cuenta:</p>   
                     </div>
                 </div>
-
-                <div class="col-md-12 mx-auto">
-                    <div class="card mt-3">
+                <div *ngFor="let parrafo of parrafos"  class="col-md-12 mx-auto">
+                    <div class="card mb-3 mt-3">
                         <div class="card-body">
-                            <h5 class="card-title">El encabezado:</h5>
-                            <p class="card-text lead">- Quería que fuera original y dinámico, así que
-                                decidí colocar
-                                los botones de navegación en posiciones aleatorias en cada sección de mi página. Así, el
-                                usuario tiene que buscarlos y se sorprende con cada cambio. Creo que esto le da un toque
-                                divertido y diferente a mi portafolio.</p>
-                            <div class="row">
-                                <div class="col-sm-6"><img  src="https://i.ibb.co/SxKFBQ3/headerMV.png" alt="headerMV" border="0"></div>
-                                <div class="col-sm-6"><img  src="https://i.ibb.co/3rntLbY/header.png" alt="header" border="0"></div>
-                            </div>
+                            <h5 class="card-title">{{parrafo.title}}</h5>
+                            <p class="card-text lead">{{parrafo.subtitle}}</p>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-                <div class="col-md-12 mx-auto">
-                    <div class="card mt-3">
-                        <div class="card-body">
-                                <h5 class="card-title">El nombre:</h5>
-                                <p class="lead mt-3">- Quería que fuera visible y llamativo, así que lo escribí en letras grandes
-                                y con un efecto iluminacion. Me
-                                inspiré en una página web que vi hace tiempo, pero no recuerdo cuál era. Me gustó cómo
-                                quedó porque creo
-                                que
-                                refleja mi
-                                personalidad y mi estilo.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-md-12 mx-auto">
-                    <div class="card mt-3">
-                        <div class="card-body">
-                            <h5 class="card-title">La sección "sobre mí":</h5>
-                            <p class="lead mt-3">
-                                - Quería que fuera informativa y personal, así que incluí una
-                                frase que resume
-                                mis
-                                objetivos y mi
-                                actitud, además de mis datos personales, mis redes sociales y mi CV. Así, el usuario
-                                puede conocerme
-                                mejor y
-                                contactarme
-                                si le interesa mi trabajo. </p>
-                                <div class="row">
-
-                                </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="col-md-12 mx-auto">
-                    <div class="card mt-3">
-                        <div class="card-body">
-                            <h5 class="card-title">La sección "habilidades":</h5>
-                            <p class="lead mt-3">
-                                - Quería que fuera visual y atractiva, así que usé unas barras
-                                circulares para
-                                mostrar mi
-                                nivel de dominio en diferentes lenguajes y herramientas de programación. Las barras las
-                                encontré en una
-                                página donde se
-                                pueden instalar los "ng circle progress", que me parecieron muy útiles y bonitos.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="col-md-12 mx-auto">
-                    <div class="card mt-3">
-                        <div class="card-body">
-                            <h5 class="card-title">La sección "proyectos":</h5>
-                            <p class="lead mt-3">
-                                - Quería que fuera ilustrativa y variada, así que mostré algunos
-                                de mis
-                                proyectos
-                                más
-                                destacados, con una breve descripción y un enlace para verlos en detalle. Tengo pensado
-                                agregar más
-                                proyectos en el
-                                futuro, para mostrar la diversidad de mi trabajo.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="col-md-12 mx-auto">
-                    <div class="card mt-3">
-                        <div class="card-body">
-                            <h5 class="card-title">La adaptación a dispositivos móviles:</h5>
-                            <p class="lead mt-3">
-                                - Quería que fuera funcional y cómoda, así que
-                                ajusté el diseño y
-                                el
-                                tamaño de los
-                                elementos para que se vieran bien en pantallas pequeñas. Espero que haya quedado
-                                perfecto así como está.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="col-md-12 mx-auto">
-                    <div class="card mt-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Cosas que no agregué:</h5>
-                            <p class="lead mt-3">
-                                Tenía la idea de hacer un pie de página (footer) que se mostrara
-                                en todas las
-                                secciones, pero lo
-                                descarté porque me pareció innecesario y redundante. También pensé en hacer que el pie
-                                de página
-                                cambiara
-                                según la
-                                sección, pero lo descarté por la misma razón.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="col-md-12 mx-auto">
-                    <div class="card mt-3 mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Ideas geniales por hacer:</h5>
-                            <p class="lead mt-3">
-                                Tengo en mente hacer una sección para que los posibles
-                                clientes como tú puedan
-                                escribirme a mi
-                                correo de forma fácil. También me gustaría hacer un inicio de sesión, para que puedas
-                                usar esta página
-                                web
-                                como una
-                                plantilla para tu CV personal. Y por último, me gustaría agregar animaciones, pero
-                                necesito investigar
-                                bien
-                                cómo hacerlo
-                                y si funciona bien.</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
-    </div>
+    </ng-container>
 </div>
