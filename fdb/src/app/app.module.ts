@@ -25,6 +25,10 @@ import { ArticlesWebComponent } from './components/proyectos/articles-web/articl
 import { HistoriaAcademicaComponent } from './components/historia-academica/historia-academica.component';
 import { Titulo4Component } from './components/historia-academica/titulo4/titulo4.component';
 import { EstudiosComponent } from './components/historia-academica/estudios/estudios.component';
+import { LenguajesComponent } from './components/habilidades/skills/lenguajes/lenguajes.component';
+import { BibliotecaFlameworksComponent } from './components/habilidades/skills/biblioteca-flameworks/biblioteca-flameworks.component';
+import { HerramientasComponent } from './components/habilidades/skills/herramientas/herramientas.component';
+import { MetodologiasComponent } from './components/habilidades/skills/metodologias/metodologias.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +53,10 @@ import { EstudiosComponent } from './components/historia-academica/estudios/estu
     HistoriaAcademicaComponent,
     Titulo4Component,
     EstudiosComponent,
+    LenguajesComponent,
+    BibliotecaFlameworksComponent,
+    HerramientasComponent,
+    MetodologiasComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,16 @@
 h1{
     padding-top: 1%;
     user-select: none;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     margin-bottom: 10px;
     color: #FFF
 }
+
+h1:visited, h1:hover, h1:active, h1:focus{
+    color: yellow;
+}
+
+.btn:hover, .btn:active, .btn:visited, .btn:focus {
+    color: yellow !important;
+  }

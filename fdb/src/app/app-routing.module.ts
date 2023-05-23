@@ -9,11 +9,22 @@ import { PortafolioWebComponent } from './components/proyectos/portafolio-web/po
 import { RestauranteWebComponent } from './components/proyectos/restaurante-web/restaurante-web.component';
 import { ArticlesWebComponent } from './components/proyectos/articles-web/articles-web.component';
 import { HistoriaAcademicaComponent } from './components/historia-academica/historia-academica.component';
+import { LenguajesComponent } from './components/habilidades/skills/lenguajes/lenguajes.component';
+import { BibliotecaFlameworksComponent } from './components/habilidades/skills/biblioteca-flameworks/biblioteca-flameworks.component';
+import { HerramientasComponent } from './components/habilidades/skills/herramientas/herramientas.component';
+import { MetodologiasComponent } from './components/habilidades/skills/metodologias/metodologias.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent},
-  { path: 'habilidades', component: HabilidadesComponent },
+  { path: 'habilidades', component: HabilidadesComponent,
+  children: [
+    { path: '', component: LenguajesComponent},
+    { path: 'lenguajes', component: LenguajesComponent},
+    { path: 'biblioteca-flameworks', component: BibliotecaFlameworksComponent},
+    { path: 'herramientas', component: HerramientasComponent},
+    { path: 'metodologias', component: MetodologiasComponent},
+  ]},
   { path: 'sobre-mi', component: SobreMiComponent },
   { path: 'proyectos', component: ProyectosComponent},
   { path: 'portafolio-web', component: PortafolioWebComponent},
