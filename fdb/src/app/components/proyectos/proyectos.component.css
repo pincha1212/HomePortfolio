@@ -37,8 +37,7 @@ button:hover {
 }
 
 button:focus {
-    text-decoration: none;
-    outline: none
+outline-color: yellow;
 }
 
 #close{
@@ -58,7 +57,9 @@ button:focus {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s;
+  outline-color: yellow;
   }
+
 
   .card:hover {
     transform: scale(1.05);

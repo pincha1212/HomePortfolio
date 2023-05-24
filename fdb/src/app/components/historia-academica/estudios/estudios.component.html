@@ -3,10 +3,10 @@
 <ng-container *ngIf="cards">
     <!-- Se usa la directiva ngFor para iterar sobre el array y crear una tarjeta por cada elemento -->
     <div class="container card mb-3" *ngFor="let card of cards">
-        <div class="row card-body"> 
+        <div class="row card-body" autofocus tabindex="0"> 
             <!-- Se usa la interpolación para mostrar los datos de cada tarjeta -->
             <h5 class="col-md-6 col-12 card-title">{{card.title}}</h5>
-            <p class="col-md-6 col-12 card-text">{{card.subtitle}}</p>
+            <p class="col-md-6 col-12 card-text" >{{card.subtitle}}</p>
         </div>
     </div>
 </ng-container>

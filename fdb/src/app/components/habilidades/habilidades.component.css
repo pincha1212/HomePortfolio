@@ -36,8 +36,7 @@ button:hover {
 }
 
 button:focus {
-    text-decoration: none;
-    outline: none
+  outline-color: invert;
 }
 
 #close{
