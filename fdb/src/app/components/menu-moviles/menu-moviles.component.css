@@ -70,8 +70,9 @@ button:focus {
     position: absolute;
     top: 0;
     right: 20px;
-    width: 36px;
-    height: 36px;
+    width: 48px;
+    height: 48px;
+    font-size: 2rem;
 }
 .boton4:hover{
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
