@@ -1,16 +1,16 @@
 <div class="container align-items-center text-center">
     <div class="flex-column">
-        <button class="btn " routerLink="lenguajes">
-            <h1 class="text-center display-4"> LENGUAJES |</h1>
+        <button class="btn " routerLinkActive="activo" [routerLinkActiveOptions]="{exact: true}" >
+            <h1 routerLink="lenguajes" class="text-center display-4"> LENGUAJES |</h1>
         </button>
-        <button class="btn " routerLink="biblioteca-flameworks">
-            <h1 class="text-center display-4"> BIBLIOTECAS Y FLAMEWORKS |</h1>
+        <button class="btn " routerLinkActive="activo" >
+            <h1 routerLink="biblioteca-flameworks" class="text-center display-4"> BIBLIOTECAS Y FLAMEWORKS |</h1>
         </button>
-        <button class="btn " routerLink="herramientas">
-            <h1 class="text-center display-4"> HERRAMIENTAS |</h1>
+        <button class="btn " routerLinkActive="activo" >
+            <h1 routerLinkActive="activo" routerLink="herramientas" class="text-center display-4"> HERRAMIENTAS |</h1>
         </button>
-        <button class="btn " routerLink="metodologias">
-            <h1 class="text-center display-4"> METODOLOGÍAS</h1>
+        <button class="btn " routerLinkActive="activo" >
+            <h1 routerLinkActive="activo" routerLink="metodologias" class="text-center display-4"> METODOLOGÍAS</h1>
         </button>
     </div>
 </div>
