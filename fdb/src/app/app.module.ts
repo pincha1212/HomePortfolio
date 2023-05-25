@@ -15,6 +15,7 @@ import { SobreMiModule } from './components/sobre-mi/sobre-mi.module';
 import { ProyectosModule } from './components/proyectos/proyectos.module';
 import { HabilidadesModule } from "./components/habilidades/habilidades.module";
 import { HistoriaAcademicaModule } from './components/historia-academica/historia-academica.module';
+import { ContactameComponent } from './components/contactame/contactame.component';
 
 @NgModule({
     declarations: [
@@ -26,6 +27,7 @@ import { HistoriaAcademicaModule } from './components/historia-academica/histori
         NameComponent,
         MenuMovilesComponent,
         HistoriaAcademicaComponent,
+        ContactameComponent,
 
     ],
     providers: [],
