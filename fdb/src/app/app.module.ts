@@ -16,6 +16,7 @@ import { ProyectosModule } from './components/proyectos/proyectos.module';
 import { HabilidadesModule } from "./components/habilidades/habilidades.module";
 import { HistoriaAcademicaModule } from './components/historia-academica/historia-academica.module';
 import { ContactameComponent } from './components/contactame/contactame.component';
+import { ContactameModule } from "./components/contactame/contactame.module";
 
 @NgModule({
     declarations: [
@@ -28,7 +29,6 @@ import { ContactameComponent } from './components/contactame/contactame.componen
         MenuMovilesComponent,
         HistoriaAcademicaComponent,
         ContactameComponent,
-
     ],
     providers: [],
     bootstrap: [AppComponent],
@@ -38,7 +38,8 @@ import { ContactameComponent } from './components/contactame/contactame.componen
         ProyectosModule,
         AppRoutingModule,
         HabilidadesModule,
-        HistoriaAcademicaModule
+        HistoriaAcademicaModule,
+        ContactameModule
     ]
 })
 export class AppModule { }

@@ -13,6 +13,7 @@ import { LenguajesComponent } from './components/habilidades/skills/lenguajes/le
 import { BibliotecaFlameworksComponent } from './components/habilidades/skills/biblioteca-flameworks/biblioteca-flameworks.component';
 import { HerramientasComponent } from './components/habilidades/skills/herramientas/herramientas.component';
 import { MetodologiasComponent } from './components/habilidades/skills/metodologias/metodologias.component';
+import { ContactameComponent } from './components/contactame/contactame.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -31,8 +32,8 @@ const routes: Routes = [
   { path: 'restaurante-web', component: RestauranteWebComponent},
   { path: 'articles-web', component: ArticlesWebComponent},
   { path: 'menu-moviles', component: MenuMovilesComponent},
-  { path: 'historia-academica', component: HistoriaAcademicaComponent}
-
+  { path: 'historia-academica', component: HistoriaAcademicaComponent},
+  { path: 'contactame', component: ContactameComponent},
 ];
 
 @NgModule({

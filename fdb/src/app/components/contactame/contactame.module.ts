@@ -12,6 +12,9 @@ import { FormComponent } from './form/form.component';
   imports: [
     CommonModule,
     ContactameRoutingModule
+  ],
+  exports: [
+    FormComponent
   ]
 })
 export class ContactameModule { }

@@ -27,4 +27,8 @@ export class HomeComponent {
     this.router.navigateByUrl('/historia-academica');
   }
   
+  btnClick6 = () => {
+    this.router.navigateByUrl('/contactame');
+  }
+
 }
