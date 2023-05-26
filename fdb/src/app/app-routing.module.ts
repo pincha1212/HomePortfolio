@@ -16,24 +16,24 @@ import { MetodologiasComponent } from './components/habilidades/skills/metodolog
 import { ContactameComponent } from './components/contactame/contactame.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', title: 'Portafolio-FDB | INICIO' , component: HomeComponent },
   { path: 'home', component: HomeComponent},
-  { path: 'habilidades', component: HabilidadesComponent,
+  { path: 'habilidades',title:'HABILIDADES' , component: HabilidadesComponent,
   children: [
-    { path: '', component: LenguajesComponent},
+    { path: '',title:'HABILIDADES' , component: LenguajesComponent},
     { path: 'lenguajes', component: LenguajesComponent},
     { path: 'biblioteca-flameworks', component: BibliotecaFlameworksComponent},
     { path: 'herramientas', component: HerramientasComponent},
     { path: 'metodologias', component: MetodologiasComponent},
   ]},
-  { path: 'sobre-mi', component: SobreMiComponent },
-  { path: 'proyectos', component: ProyectosComponent},
-  { path: 'portafolio-web', component: PortafolioWebComponent},
-  { path: 'restaurante-web', component: RestauranteWebComponent},
-  { path: 'articles-web', component: ArticlesWebComponent},
-  { path: 'menu-moviles', component: MenuMovilesComponent},
-  { path: 'historia-academica', component: HistoriaAcademicaComponent},
-  { path: 'contactame', component: ContactameComponent},
+  { path: 'sobre-mi', title:'SOBRE MI' , component: SobreMiComponent },
+  { path: 'proyectos', title:'PROYECTOS' ,component: ProyectosComponent},
+  { path: 'portafolio-web',title:'MI PORTAFOLIO' , component: PortafolioWebComponent},
+  { path: 'restaurante-web',title:'RESTAURANTE' , component: RestauranteWebComponent},
+  { path: 'articles-web',title:'ADMINISTRACION DE ARTICULOS' , component: ArticlesWebComponent},
+  { path: 'menu-moviles',title:'Portafolio-FDB | INICIO' , component: MenuMovilesComponent},
+  { path: 'historia-academica',title:'HISTORIA ACADEMICA' , component: HistoriaAcademicaComponent},
+  { path: 'contactame',title:'CONTACTATE CONMIGO' , component: ContactameComponent},
 ];
 
 @NgModule({
