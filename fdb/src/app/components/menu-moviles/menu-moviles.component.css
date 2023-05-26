@@ -6,7 +6,6 @@
     width: 100%;
     overflow:hidden;
     z-index: 1;
-    
 }
 
 button {
@@ -28,6 +27,8 @@ button {
 button:hover {
     cursor: pointer;
     border-radius: 10px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
+    transform: scale(1.1);
 }
 
 button:focus {
@@ -42,29 +43,14 @@ button:focus {
     padding: 25px 0;
 }
 
-.boton1:hover {
-    transform: scale(1.1);
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0)
-}
-
 .boton2{
     padding: 25px 0;
-}
-
-.boton2:hover {
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
-    transform: scale(1.1);
 }
 
 .boton3{
     padding: 25px 0;
 }
 
-.boton3:hover {
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
-    transform: scale(1.1);
-    
-}
 .boton4{
     position: absolute;
     top: 0;
@@ -75,25 +61,11 @@ button:focus {
     font-weight: 700;
     color: white;
 }
-.boton4:hover{
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
-    transform: scale(1.1);
-}
 
 .boton5{
     padding: 25px 0;
 }
 
-.boton5:hover{
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
-    transform: scale(1.1);
-}
-
 .boton6{
     padding: 25px 0;
-}
-
-.boton6:hover{
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #CE5937, 0 0 30px #CE5937, 0 0 40px #CE5937, 0 0 55px #CE5937, 0 0 75px #CE5937, 2px 2px 2px rgba(206, 89, 55, 0);
-    transform: scale(1.1);
 }
