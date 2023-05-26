@@ -104,7 +104,8 @@ button:focus {
     .boton1,
     .boton2,
     .boton3,
-    .boton5{
+    .boton5,
+    .boton6{
         display: none;
     }
     .boton4{

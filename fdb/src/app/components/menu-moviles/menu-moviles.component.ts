@@ -29,4 +29,9 @@ export class MenuMovilesComponent {
   btnClick5 = () => {
     this.router.navigateByUrl('/historia-academica');
   }
+  btnClick6 = () => {
+    this.router.navigateByUrl('/contactame');
+  }
+
+
 }
