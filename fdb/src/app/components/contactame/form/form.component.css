@@ -3,3 +3,26 @@
     padding-bottom: 1%;
     color: #fff;
 }
+
+/*ANIMACIONES*/
+
+.animated-border {
+    border: 0px solid transparent;
+    animation: border-animation 1.5s ease-in-out forwards infinite;
+  }
+  
+  @keyframes border-animation {
+    0% {
+      border-color: transparent;
+      border-width: 3px;
+    }
+    50% {
+      border-color: yellow;
+      border-width: 3px;
+    }
+    100% {
+      border-color: transparent;
+      border-width: 3px;
+    }
+  }
+  
