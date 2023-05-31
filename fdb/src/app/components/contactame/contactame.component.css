@@ -12,8 +12,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
+
+
+
 
 button {
     user-select: none;
@@ -66,10 +68,10 @@ outline-color: yellow;
     height: calc(100% + 4px);
     z-index: -1;
     border-radius: 20px;
-    animation: steam 20s linear infinite;
+    animation: close-hover 20s linear infinite;
   }   
 
-  @keyframes steam {
+  @keyframes close-hover {
     0% {
       background-position: 0 0;
     }
@@ -89,5 +91,5 @@ outline-color: yellow;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     z-index: -1;
-    animation: steam 20s linear infinite;
+    animation: close-hover 20s linear infinite;
 }
