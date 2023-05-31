@@ -1,1 +1,115 @@
-/* You can add global styles to this file, and also import other style files */
+.background {
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    overflow: hidden ;
+    border: solid rgb(5, 3, 17) 4px;
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+button {
+    user-select: none;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+button:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:focus {
+outline-color: yellow;
+}
+
+#close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(0deg, #000, #272727);
+    border-radius: 20px;
+}
+
+#close:hover{
+    background-color: red;
+
+}
+
+  
+#close:before, #close:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #ff0000, transparent);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    border-radius: 20px;
+    animation: close-hover 20s linear infinite;
+  }   
+
+  @keyframes close-hover {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  #close:after {
+    filter: blur(50px);
+  }
+  #close:hover:before, #close:hover:after {
+    background: linear-gradient(45deg, #ffff00,#ff0000,#ffbb00,#ff3300 );
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: close-hover 20s linear infinite;
+}
+
+  /* Estilo para el scroll vertical */
+  ::-webkit-scrollbar {
+    width: 10px; /* Ancho del scroll */
+  }
+  
+  /* Estilo para el track (fondo) del scroll */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Color de fondo transparente */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para el thumb (barra) del scroll */
+  ::-webkit-scrollbar-thumb {
+    background: #4b444480; /* Color de la barra */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para el hover (efecto al pasar el mouse) del scroll */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cc3a3a; /* Color de la barra al pasar el mouse */
+  }

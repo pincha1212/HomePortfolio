@@ -1,75 +1,7 @@
-.background {
-    background-size: contain;
-    background-position: center;
-    z-index: -1;
-    overflow-x:hidden;
-    border: solid rgb(5, 3, 17) 4px;
-    background-color: rgb(22, 22, 22);
-    border-radius: 20px;
-    position: absolute;
-    width: 95vw;
-    height: 95vh;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.background{
+  border-radius: 20px;
+  overflow-y: scroll;
 }
-
-button {
-    user-select: none;
-    background-color: transparent;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    align-items: center
-}
-
-button:hover {
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-button:focus {
-  outline-color: invert;
-}
-
-#close{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-#close:hover{
-    background-color: red;
-}
-
-/* Estilo para el scroll vertical */
-::-webkit-scrollbar {
-    width: 10px; /* Ancho del scroll */
-  }
-  
-  /* Estilo para el track (fondo) del scroll */
-  ::-webkit-scrollbar-track {
-    background: transparent; /* Color de fondo transparente */
-    border-radius: 10px; /* Bordes redondeados */
-  }
-  
-  /* Estilo para el thumb (barra) del scroll */
-  ::-webkit-scrollbar-thumb {
-    background: #4b444480; /* Color de la barra */
-    border-radius: 10px; /* Bordes redondeados */
-  }
-  
-  /* Estilo para el hover (efecto al pasar el mouse) del scroll */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #cc3a3a; /* Color de la barra al pasar el mouse */
-  }
-  
 
 @media (max-width: 768px){
     .background{
