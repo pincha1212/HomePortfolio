@@ -1,8 +1,14 @@
 .titulo {
-    padding-top: 1%;
+    
     user-select: none;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 10px;
     color: #FFF
 }
+
+@media (max-width: 768px){
+    .titulo{
+        padding-top: 15%;
+    }
+  }
