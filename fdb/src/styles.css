@@ -92,24 +92,22 @@ outline-color: yellow;
     animation: close-hover 20s linear infinite;
 }
 
-  /* Estilo para el scroll vertical */
-  ::-webkit-scrollbar {
-    width: 10px; /* Ancho del scroll */
+
+::-webkit-scrollbar {
+    width: 10px;
   }
   
-  /* Estilo para el track (fondo) del scroll */
+
   ::-webkit-scrollbar-track {
-    background: transparent; /* Color de fondo transparente */
-    border-radius: 10px; /* Bordes redondeados */
+    background: transparent; 
+    border-radius: 10px;
   }
   
-  /* Estilo para el thumb (barra) del scroll */
   ::-webkit-scrollbar-thumb {
-    background: #4b444480; /* Color de la barra */
-    border-radius: 10px; /* Bordes redondeados */
+    background: #4b444480; 
+    border-radius: 10px; 
   }
   
-  /* Estilo para el hover (efecto al pasar el mouse) del scroll */
   ::-webkit-scrollbar-thumb:hover {
-    background: #cc3a3a; /* Color de la barra al pasar el mouse */
+    background: #cc3a3a; 
   }
