@@ -7,6 +7,7 @@ import { TituloComponent } from './titulo/titulo.component';
 import { FooterComponent } from './footer/footer.component';
 import { EnlacesSocialesComponent } from './enlaces-sociales/enlaces-sociales.component';
 import { EnlaceCvComponent } from './enlace-cv/enlace-cv.component';
+import { FotoPerfilComponent } from './foto-perfil/foto-perfil.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { EnlaceCvComponent } from './enlace-cv/enlace-cv.component';
     FooterComponent,
     EnlacesSocialesComponent,
     EnlaceCvComponent,
+    FotoPerfilComponent,
 
   ],
   imports: [
@@ -29,6 +31,7 @@ import { EnlaceCvComponent } from './enlace-cv/enlace-cv.component';
     FooterComponent,
     EnlacesSocialesComponent,
     EnlaceCvComponent,
+    FotoPerfilComponent
   ]
 })
 export class SobreMiModule { }

@@ -1,0 +1,19 @@
+img{
+    height: 11rem;
+    width: 12rem;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px){
+    img{
+        position: relative;
+        display: flex;
+        align-items: center;
+        transform: translate(-50%,10%);
+    }
+}
